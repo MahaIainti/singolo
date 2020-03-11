@@ -45,9 +45,13 @@ nav {
 	padding-top: 10px;
 	text-align: center;
 }
+.ul-nav a:hover {
+	color: #f06c64;
+  background-color: #323746;
+}
 .text-color {
 	width: 10%;
-	color: #f06c64;
+	color: #494e62;
 }
 .text-color a {
 	color: #f06c64;
@@ -246,6 +250,11 @@ ul {
 .filter li:nth-child(4){
 	padding-right: 6px;
 }
+.filter li:hover {
+	color: #ffffff;
+  background-color: #323746;
+	border-color: #ffffff;
+}
 .layout {
 	display: flex;
 	flex-wrap: wrap;
@@ -339,7 +348,6 @@ form {
 	display: flex;
 	flex-flow: column wrap;
 	width: 65.9%;
-	margin-bottom: 7.1%;
 }
 .input-style {
 	padding-left: 2.3%;
@@ -363,6 +371,9 @@ textarea.input-style {
 }
 ::-webkit-input-placeholder {
 	color: #f2888b;
+}
+button {
+	margin: 3.7% 25%;
 }
 .info-ul {
 	display: flex;
@@ -396,6 +407,9 @@ textarea.input-style {
 }
 .info-li p {
 	margin: 0;
+}
+.info-li a {
+	color: #f0d8d9;
 }
 .info img {
 	width: 15px;
