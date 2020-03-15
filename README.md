@@ -1,1 +1,1 @@
-# https://mahaiainti.github.io/singolo
+# singolo
